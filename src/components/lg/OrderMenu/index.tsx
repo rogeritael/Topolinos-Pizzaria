@@ -2,8 +2,6 @@ import { PizzaCard } from "../../md/PizzaCard/PizzaCard";
 import { SectionTitle } from "../../sm/SectionTitle";
 import { Slider } from "../Slider";
 import { StyledSection } from "./styles";
-import { useContext } from 'react';
-import { CartContext } from '../../../context/CartContext';
 
 interface PizzaProps {
     id: number,
